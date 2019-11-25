@@ -13,6 +13,8 @@ public class MovementComponent : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    private bool onJumpPad = false;
+
     [SerializeField]
     private float moveForce = 360f;
 
@@ -21,6 +23,9 @@ public class MovementComponent : MonoBehaviour
 
     [SerializeField]
     private float jumpForce = 1000f;
+
+    [SerializeField]
+    private float jumpPadMultiplier = 2;
 
     [SerializeField]
     private Transform groundCheck;
@@ -35,6 +40,22 @@ public class MovementComponent : MonoBehaviour
         {
             Debug.LogError("Ground Check missing from the MovementComponent, please set one.");
             Destroy(this);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("JumpPad"))
+        {
+            onJumpPad = true;
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("JumpPad"))
+        {
+            onJumpPad = false;
         }
     }
 
@@ -68,7 +89,7 @@ public class MovementComponent : MonoBehaviour
             if (rb2d.velocity.y <= 0)
             {
                 //Perform the jump 
-                rb2d.AddForce(new Vector2(0f, jumpForce));
+                rb2d.AddForce(new Vector2(0f, onJumpPad ? jumpForce * jumpPadMultiplier : jumpForce));
             }
         }
     }
