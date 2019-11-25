@@ -1,0 +1,1296 @@
+fileFormatVersion: 2
+guid: 7d9578ba63d65fb4d86e8646cca10b77
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RFSpritePandaWalk1
+    21300002: RFSpritePandaWalk2
+    21300004: RFSpritePandaWalk3
+    21300006: RFSpritePandaWalk4
+    21300008: RFSpritePandaWalk5
+    21300010: RFSpritePandaWalk6
+    21300012: RFSpritePandaWalk7
+    21300014: RFSpritePandaWalk8
+    21300016: RFSpritePandaWalk9
+    21300018: RFSpritePandaWalk10
+    21300020: RFSpritePandaWalk11
+    21300022: RFSpritePandaDie1
+    21300024: RFSpritePandaDie2
+    21300026: RFSpritePandaDie3
+    21300028: RFSpritePandaDie4
+    21300030: RFSpritePandaDie5
+    21300032: RFSpritePandaDie6
+    21300034: RFSpritePandaDie7
+    21300036: RFSpritePandaDie8
+    21300038: RFSpritePandaDie9
+    21300040: RFSpritePandaDie10
+    21300042: RFSpritePandaHit1
+    21300044: RFSpritePandaHit2
+    21300046: RFSpritePandaHit3
+    21300048: RFSpritePandaHit4
+    21300050: RFSpritePandaHit5
+    21300052: RFSpritePandaExplosion1
+    21300054: RFSpritePandaExplosion2
+    21300056: RFSpritePandaExplosion3
+    21300058: RFSpritePandaExplosion4
+    21300060: RFSpritePandaExplosion5
+    21300062: RFSpritePandaExplosion6
+    21300064: RFSpritePandaExplosion7
+    21300066: RFSpritePandaExplosion8
+    21300068: RFSpritePandaExplosion9
+    21300070: RFSpritePandaExplosion10
+    21300072: RFSpritePandaExplosion11
+    21300074: RFSpritePandaExplosion12
+    21300076: RFSpritePandaExplosion13
+    21300078: RFSpritePandaExplosion14
+    21300080: RFSpritePandaExplosion15
+    21300082: RFSpritePandaExplosion16
+    21300084: RFSpritePandaJump1
+    21300086: RFSpritePandaJump2
+    21300088: RFSpritePandaJump3
+    21300090: RFSpritePandaJump4
+    21300092: RFSpritePandaJump5
+    21300094: RFSpritePandaJump6
+    21300096: RFSpritePandaJump7
+    21300098: RFSpritePandaJump8
+    21300100: RFSpritePandaJump9
+    21300102: RFSpritePandaIdle1
+    21300104: RFSpritePandaIdle2
+    21300106: RFSpritePandaIdle3
+    21300108: RFSpritePandaIdle4
+    21300110: RFSpritePandaIdle5
+    21300112: RFSpritePandaIdle6
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 0
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RFSpritePandaWalk1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8887.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb42d90e8d629e459135e796aaffd8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 8887.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81524f63a05ebf14a9b42e591d8fcabf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk3
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 8887.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba053e56aaa6f71479bb32a4de835fb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 8887.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25667cf0cd2685441bebc83d3e4bf08f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk5
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 8887.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137187fd23097144c9209abccd2c832b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk6
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 8887.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2da9f45eac4d094cbde284023d4fb72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8332.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b54f35264b5740439b251e4cfa761b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 8332.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017b0be143c253f45b83b914baf7a3fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 8332.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd366368961b4494f9ae72c84b927ca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk10
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 8332.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020e74972588571469120a037093480e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaWalk11
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 8332.529
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b12de81d83dbc439c589c525513568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7222.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239bcc005db992840afaa66f0b7f3381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 7222.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6a15a73e31af34c9c45d96f21109ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie3
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 7223
+        width: 680
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fbbfd2fb8bd8240b98da9a5e2198ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 7222.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ef52f7a9be3124a84e183cc674a078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie5
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 7222.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2377d1e86630e4f80472eaffcefdef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie6
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 7222.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19680e2d5d94074a8293aad892e0d79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6667.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9547ca41e56c3748aed59c3534cacbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 6667.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda7419dd51457a46b7049d490d48a22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 6667.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a796c3479f0834fb1a2cbc00009aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaDie10
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 6667.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989d500268c866a42a40bd1dfc443e25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaHit1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5557.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12796fec8f2552429388c5e8a9c4298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaHit2
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 5558
+        width: 680
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bf15f6403b701469130d2f40ed6a97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaHit3
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 5557.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079afdd32e87ec348b32634d36a1bdef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaHit4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 5557.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3770444eee08c6c43bcd3fc8f613479f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaHit5
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 5557.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a9cc78da19f8a4a8e6db16c0f5ddca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4447.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24044d48bfb2dca4ab2d72ed9904f2b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion2
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 4448
+        width: 680
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ebaf164fbf698468dcfff4a834eecf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion3
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 4448
+        width: 680
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2299dfec4088b44b8ee31d4e6cee21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 4447.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f8e6d965136d34997f54ef06383665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion5
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 4447.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6e616ead3390241a8b7ebdbad42d08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion6
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 4447.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1942ee263d413a848adc96c8d65e7e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3892.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a892bd035275646888489a8c7d7c78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 3892.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288d87b88f91b644c93580d3c11865db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3892.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926daa69a7435e74ea0c0eed059e502c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion10
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3892.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e233ee91ddfd754398acc29a8a9be99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion11
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 3892.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe36e24ab72d3dd4dbdf55c0aa98cf47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion12
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 3893
+        width: 680
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5abc6e8c94ac844a5fce59ea6f27b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3337.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1460a3d770a81544795c807e6b421b6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion14
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 3337.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff21812f68cc044429362abbb4d774a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion15
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3337.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d6473eacaf3e546847ae03b813230e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaExplosion16
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3337.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2633c5c694580a74b9bce4a98b4d4b7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2227.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a16387d458c904bb206d5b7c37676c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2227.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7b6afc6b68fd941a43d7c8c9434040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump3
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2221
+        width: 680
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc6e9fdcddc561489b07a931f516cd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2227.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614a67b7b7aa38942be34ee72fd59f90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump5
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 2227.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f645b5ff7f07b04f98c5cff1739643e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump6
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2227.5293
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0bdf784a01d66468070fcf018621e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1672.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c51331e0bbd5e46aaa5e38b643a672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1672.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24018c0fe03fd4478e990f7d8e212ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaJump9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1672.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a91b30ee594722478c7878f4813f476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaIdle1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 562.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f640ea15ec859409df50a857bd39db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaIdle2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 562.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c14036ee6ec3a34d84d9c4dc3aae160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaIdle3
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 562.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5232ef7a6ffde5943b145b6367ba9cbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaIdle4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 562.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358bef43d65169248a44f81c516f0082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaIdle5
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 562.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c8af3f7869bd64789f944ad79d13b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RFSpritePandaIdle6
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 562.5294
+        width: 680.1667
+        height: 555.4706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb47419a7b35f842b4324c8c3b99238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ba14a2be2a1a6f04d90d1da2fc67b8d6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
