@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3154853198168294568}
   - component: {fileID: 5979856521492064159}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,7 +402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3574819793099213582}
   - component: {fileID: 1640869694970416398}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 8931613717156526605}
   - component: {fileID: 3584135772779085530}
   - component: {fileID: 823469681061314749}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: RETROfromer_Tileset_Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +515,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1710517467
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 2
 --- !u!114 &823469681061314749
 MonoBehaviour:
   m_ObjectHideFlags: 0
