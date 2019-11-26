@@ -29,7 +29,7 @@ public class WinningZone : MonoBehaviour
         Time.timeScale = 0;
 
         // Show a winning message
-        FindObjectOfType<ModalScreenController>().Show("LEVEL PASSED", "Next level", () =>
+        FindObjectOfType<ModalScreenSystem>().Show("LEVEL PASSED", "Next level", () =>
         {
             Time.timeScale = 1;
             // Load the level named as in the nextLevelToLoad variable. 

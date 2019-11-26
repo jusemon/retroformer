@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ModalScreenController : MonoBehaviour
+public class ModalScreenSystem : MonoBehaviour
 {
     [SerializeField]
     private Canvas canvas;

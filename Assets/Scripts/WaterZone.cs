@@ -25,7 +25,7 @@ public class WaterZone : MonoBehaviour
         Time.timeScale = 0;
 
         // Show a gameover message
-        FindObjectOfType<ModalScreenController>().Show("GAME OVER", "Try again?", () =>
+        FindObjectOfType<ModalScreenSystem>().Show("GAME OVER", "Try again?", () =>
         {
             // Restart Scene 
             Time.timeScale = 1;
