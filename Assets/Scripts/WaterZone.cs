@@ -19,11 +19,17 @@ public class WaterZone : MonoBehaviour
 
     private IEnumerator restartScene()
     {
-        // TODO: Show a gameover message (left as exercise)
-
         // Wait timeDelay 
         yield return new WaitForSeconds(timeDelay);
-        // Restart Scene 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        Time.timeScale = 0;
+
+        // Show a gameover message
+        FindObjectOfType<ModalScreenController>().Show("GAME OVER", "Try again?", () =>
+        {
+            // Restart Scene 
+            Time.timeScale = 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        });
     }
 }

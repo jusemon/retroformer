@@ -23,15 +23,17 @@ public class WinningZone : MonoBehaviour
 
     private IEnumerator loadNextLevel()
     {
-        // TODO: Show a winning message (left as exercise) 
-
         // Wait timeDelay 
         yield return new WaitForSeconds(timeDelay);
 
+        Time.timeScale = 0;
 
-        // Load the level named as in the nextLevelToLoad variable. 
-        SceneManager.LoadScene(nextLevelToLoad);
+        // Show a winning message
+        FindObjectOfType<ModalScreenController>().Show("LEVEL PASSED", "Next level", () =>
+        {
+            Time.timeScale = 1;
+            // Load the level named as in the nextLevelToLoad variable. 
+            SceneManager.LoadScene(nextLevelToLoad);
+        });
     }
-
-
 }
