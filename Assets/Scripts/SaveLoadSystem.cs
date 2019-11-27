@@ -49,11 +49,11 @@ public static class SaveLoadSystem
 
     public static void DeleteAllSlots()
     {
-        foreach (var slot in (SaveSlot[])Enum.GetValues(typeof(SaveSlot)))
+        foreach (var slotKey in (SaveSlot[])Enum.GetValues(typeof(SaveSlot)))
         {
-            if (HasSlot(slot))
+            if (HasSlot(slotKey))
             {
-                DeleteSlot(slot);
+                DeleteSlot(slotKey);
             }
         }
     }
@@ -92,6 +92,8 @@ public class SavingData
     public float timeElapsed;
 
     public string playerName;
+
+    public int timeLimit;
 }
 
 public enum SaveSlot

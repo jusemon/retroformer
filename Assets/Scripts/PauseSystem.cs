@@ -96,8 +96,12 @@ public class PauseSystem : MonoBehaviour
         var saveData = SaveLoadSystem.Get(slot);
         saveData.positionX = player.position.x;
         saveData.positionY = player.position.y;
+        var timeLimit = FindObjectOfType<ScoreSystem>()?.timeLimit;
+        if (timeLimit.HasValue)
+        {
+            saveData.timeLimit = Mathf.CeilToInt(timeLimit.Value - Time.timeSinceLevelLoad);
+        }
         SaveLoadSystem.Save(slot, saveData);
-
         FindObjectOfType<ModalScreenSystem>().Show("Game Saved!", "Close", () => { });
     }
 

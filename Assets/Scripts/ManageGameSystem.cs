@@ -123,17 +123,16 @@ public class ManageGameSystem : MonoBehaviour
         SetButtons(startButtons, (position) =>
         {
             var slot = (SaveSlot)position;
-
-            Debug.Log($"Selected Slot: {slot.ToString()}");
             SaveLoadSystem.Load(slot);
-            SaveLoadSystem.Save(slot, new SavingData
+            var data = new SavingData
             {
                 level = 1,
                 playerName = playerNameInput.text,
                 score = 0,
                 timeElapsed = 0
-            });
-            SceneManager.LoadScene("Level1");
+            };
+            SaveLoadSystem.Save(slot, data);
+            SceneManager.LoadScene($"Level{data.level.ToString()}");
         });
     }
 
@@ -143,10 +142,11 @@ public class ManageGameSystem : MonoBehaviour
         {
             var slot = (SaveSlot)position;
 
-            Debug.Log($"Selected Slot: {slot.ToString()}");
-
             var data = SaveLoadSystem.Load(slot);
-            SceneManager.LoadScene($"Level{data?.level.ToString()}");
+            if (data != null)
+            {
+                SceneManager.LoadScene($"Level{data.level.ToString()}");
+            }
         });
     }
 

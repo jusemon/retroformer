@@ -18,8 +18,13 @@ public class ScoreSystem : MonoBehaviour
 
     private void Start()
     {
-        var savingData = SaveLoadSystem.Get(SaveLoadSystem.GetCurrentSlot());
-        score = savingData == null ? 0 : savingData.score;
+        var saveData = SaveLoadSystem.Get(SaveLoadSystem.GetCurrentSlot());
+        if (saveData != null)
+        {
+            score = saveData.score;
+            timeLimit = saveData.timeLimit > 0 ? saveData.timeLimit : timeLimit;
+        }
+
         if (!scoreText)
         {
             Debug.LogError("Score Text not assigned to ScoreSystem");
@@ -47,6 +52,11 @@ public class ScoreSystem : MonoBehaviour
         }
         else
         {
+            if (Time.timeScale == 0)
+            {
+                return;
+            }
+
             Time.timeScale = 0;
 
             // Show a gameover message
@@ -56,7 +66,7 @@ public class ScoreSystem : MonoBehaviour
                 Time.timeScale = 1;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             });
-            return;
+            Destroy(this);
         }
 
     }
