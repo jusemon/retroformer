@@ -10,6 +10,12 @@ public class PauseSystem : MonoBehaviour
 
     public Button[] buttonsWithPause = new Button[0];
 
+    public Button[] buttonsWithSave = new Button[0];
+
+    public Button[] buttonsWithExit = new Button[0];
+
+    public Transform player;
+
     private AudioSource[] audioSources;
 
     void Start()
@@ -25,7 +31,18 @@ public class PauseSystem : MonoBehaviour
         {
             button.onClick.AddListener(PauseGame);
         }
+
+        foreach (var button in buttonsWithSave)
+        {
+            button.onClick.AddListener(SaveGame);
+        }
+
+        foreach (var button in buttonsWithExit)
+        {
+            button.onClick.AddListener(ExitGame);
+        }
     }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Cancel"))
@@ -71,5 +88,27 @@ public class PauseSystem : MonoBehaviour
         {
             item.UnPause();
         }
+    }
+
+    private void SaveGame()
+    {
+        var slot = SaveLoadSystem.GetCurrentSlot();
+        var saveData = SaveLoadSystem.Get(slot);
+        saveData.positionX = player.position.x;
+        saveData.positionY = player.position.y;
+        SaveLoadSystem.Save(slot, saveData);
+
+        FindObjectOfType<ModalScreenSystem>().Show("Game Saved!", "Close", () => { });
+    }
+
+    private void ExitGame()
+    {
+#if UNITY_EDITOR
+        // Application.Quit() does not work in the editor so
+        // UnityEditor.EditorApplication.isPlaying need to be set to false to end the game
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+         Application.Quit();
+#endif
     }
 }

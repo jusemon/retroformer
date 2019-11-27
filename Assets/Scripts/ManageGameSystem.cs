@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -75,6 +73,9 @@ public class ManageGameSystem : MonoBehaviour
 
         SetLoadGameButton();
         SetNewGameButton();
+        SetSelectSlotButton();
+        SetStartButton();
+        SetLoadButton();
         LimitCharacterName();
     }
 
@@ -85,7 +86,7 @@ public class ManageGameSystem : MonoBehaviour
 
     public void SetLoadGameButton()
     {
-        SetButtons(this.loadGameButtons, () =>
+        SetButtons(loadGameButtons, () =>
         {
             newGameScreen.SetActive(false);
             slotScreen.SetActive(false);
@@ -95,7 +96,7 @@ public class ManageGameSystem : MonoBehaviour
 
     public void SetNewGameButton()
     {
-        SetButtons(this.newGameButtons, () =>
+        SetButtons(newGameButtons, () =>
         {
             loadGameScreen.SetActive(false);
             slotScreen.SetActive(false);
@@ -105,8 +106,12 @@ public class ManageGameSystem : MonoBehaviour
 
     public void SetSelectSlotButton()
     {
-        SetButtons(this.slotButtons, () =>
+        SetButtons(slotButtons, () =>
         {
+            if (playerNameInput.text.Trim().Length == 0)
+            {
+                return;
+            }
             loadGameScreen.SetActive(false);
             newGameScreen.SetActive(false);
             slotScreen.SetActive(true);
@@ -115,9 +120,12 @@ public class ManageGameSystem : MonoBehaviour
 
     public void SetStartButton()
     {
-        SetButtons(this.startButtons, (position) =>
+        SetButtons(startButtons, (position) =>
         {
             var slot = (SaveSlot)position;
+
+            Debug.Log($"Selected Slot: {slot.ToString()}");
+            SaveLoadSystem.Load(slot);
             SaveLoadSystem.Save(slot, new SavingData
             {
                 level = 1,
@@ -131,9 +139,12 @@ public class ManageGameSystem : MonoBehaviour
 
     public void SetLoadButton()
     {
-        SetButtons(this.loadButtons, (position) =>
+        SetButtons(loadButtons, (position) =>
         {
             var slot = (SaveSlot)position;
+
+            Debug.Log($"Selected Slot: {slot.ToString()}");
+
             var data = SaveLoadSystem.Load(slot);
             SceneManager.LoadScene($"Level{data?.level.ToString()}");
         });
@@ -154,10 +165,12 @@ public class ManageGameSystem : MonoBehaviour
         {
             var button = buttons[i];
             button.onClick.RemoveAllListeners();
-            button.onClick.AddListener(() =>
-            {
-                action(i);
-            });
+            button.onClick.AddListener(ActionWithParam(action, i));
         }
+    }
+
+    private UnityAction ActionWithParam<T>(UnityAction<T> action, T param)
+    {
+        return () => action(param);
     }
 }

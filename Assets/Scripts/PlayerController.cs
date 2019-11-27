@@ -2,6 +2,25 @@
 
 public class PlayerController : MonoBehaviour
 {
+
+    public bool inMainMenu = false;
+
+    private void Start()
+    {
+        if (inMainMenu)
+        {
+            return;
+        }
+
+        var saveData = SaveLoadSystem.Get(SaveLoadSystem.GetCurrentSlot());
+
+        gameObject.transform.SetPositionAndRotation(new Vector3(
+            saveData.positionX == 0 ? gameObject.transform.position.x : saveData.positionX,
+            saveData.positionY == 0 ? gameObject.transform.position.y : saveData.positionY,
+            gameObject.transform.position.z
+        ), Quaternion.identity);
+    }
+
 #if UNITY_STANDALONE || UNITY_EDITOR
     MovementComponent movementComponent;
 

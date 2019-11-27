@@ -14,15 +14,12 @@ public class ScoreSystem : MonoBehaviour
     [SerializeField]
     private Text timeText;
 
-    private SavingData? savingData;
-
     private int score;
 
     private void Start()
     {
-        var slot = SaveLoadSystem.GetCurrentSlot();
-        savingData = SaveLoadSystem.Load(slot);
-        score = !savingData.HasValue ? 0 : savingData.Value.score;
+        var savingData = SaveLoadSystem.Get(SaveLoadSystem.GetCurrentSlot());
+        score = savingData == null ? 0 : savingData.score;
         if (!scoreText)
         {
             Debug.LogError("Score Text not assigned to ScoreSystem");
@@ -67,5 +64,9 @@ public class ScoreSystem : MonoBehaviour
     public void AddPoints(int points)
     {
         score += points;
+        var slot = SaveLoadSystem.GetCurrentSlot();
+        var dataSave = SaveLoadSystem.Get(slot);
+        dataSave.score = score;
+        SaveLoadSystem.Save(slot, dataSave);
     }
 }
