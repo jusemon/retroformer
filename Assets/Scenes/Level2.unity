@@ -1482,8 +1482,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeDelay: 1
-  nextLevelToLoad: 2
-  hasNextLevel: 1
+  nextLevelToLoad: 0
+  hasNextLevel: 0
 --- !u!61 &1274268306
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1865,7 +1865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f56f14ebd61364abd6854964eeb66e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 120
+  timeLimit: 90
   scoreText: {fileID: 25598522}
   timeText: {fileID: 354190284}
 --- !u!4 &1665039878
