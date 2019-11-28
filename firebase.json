@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "retroformer-d9e20",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
