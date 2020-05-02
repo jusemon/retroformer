@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
         ), Quaternion.identity);
     }
 
-#if UNITY_STANDALONE || UNITY_EDITOR
     MovementComponent movementComponent;
 
     private void Awake()
@@ -46,5 +45,4 @@ public class PlayerController : MonoBehaviour
             movementComponent.Jump();
         }
     }
-#endif
 }
